@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="State_infoDataSet" targetNamespace="http://tempuri.org/State_infoDataSet.xsd" xmlns:mstns="http://tempuri.org/State_infoDataSet.xsd" xmlns="http://tempuri.org/State_infoDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="State_infoConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="State_infoConnectionString (Settings)" PropertyReference="ApplicationSettings.Robert_Collier_CPT_206_Lab_2.Properties.Settings.GlobalReference.Default.State_infoConnectionString" Provider="System.Data.OleDb" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="Table1TableAdapter" GeneratorDataComponentClassName="Table1TableAdapter" Name="Table1" UserDataComponentName="Table1TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="State_infoConnectionString (Settings)" DbObjectName="Table1" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT State, Population, [Flag Description], [State Flower], [State bird], Capitol, [Median Income], [% of PC jobs], [Largest City], [Second Largest City], [Third Largest City] FROM Table1</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="State" DataSetColumn="State" />
+              <Mapping SourceColumn="Population" DataSetColumn="Population" />
+              <Mapping SourceColumn="Flag Description" DataSetColumn="Flag Description" />
+              <Mapping SourceColumn="State Flower" DataSetColumn="State Flower" />
+              <Mapping SourceColumn="State bird" DataSetColumn="State bird" />
+              <Mapping SourceColumn="Capitol" DataSetColumn="Capitol" />
+              <Mapping SourceColumn="Median Income" DataSetColumn="Median Income" />
+              <Mapping SourceColumn="% of PC jobs" DataSetColumn="% of PC jobs" />
+              <Mapping SourceColumn="Largest City" DataSetColumn="Largest City" />
+              <Mapping SourceColumn="Second Largest City" DataSetColumn="Second Largest City" />
+              <Mapping SourceColumn="Third Largest City" DataSetColumn="Third Largest City" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="State_infoDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="State_infoDataSet" msprop:Generator_UserDSName="State_infoDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Table1" msprop:Generator_TableClassName="Table1DataTable" msprop:Generator_TableVarName="tableTable1" msprop:Generator_RowChangedName="Table1RowChanged" msprop:Generator_TablePropName="Table1" msprop:Generator_RowDeletingName="Table1RowDeleting" msprop:Generator_RowChangingName="Table1RowChanging" msprop:Generator_RowEvHandlerName="Table1RowChangeEventHandler" msprop:Generator_RowDeletedName="Table1RowDeleted" msprop:Generator_RowClassName="Table1Row" msprop:Generator_UserTableName="Table1" msprop:Generator_RowEvArgName="Table1RowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="State" msprop:Generator_ColumnVarNameInTable="columnState" msprop:Generator_ColumnPropNameInRow="State" msprop:Generator_ColumnPropNameInTable="StateColumn" msprop:Generator_UserColumnName="State" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Population" msprop:Generator_ColumnVarNameInTable="columnPopulation" msprop:Generator_ColumnPropNameInRow="Population" msprop:Generator_ColumnPropNameInTable="PopulationColumn" msprop:Generator_UserColumnName="Population" type="xs:long" minOccurs="0" />
+              <xs:element name="Flag_x0020_Description" msprop:Generator_ColumnVarNameInTable="columnFlag_Description" msprop:Generator_ColumnPropNameInRow="Flag_Description" msprop:Generator_ColumnPropNameInTable="Flag_DescriptionColumn" msprop:Generator_UserColumnName="Flag Description" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="State_x0020_Flower" msprop:Generator_ColumnVarNameInTable="columnState_Flower" msprop:Generator_ColumnPropNameInRow="State_Flower" msprop:Generator_ColumnPropNameInTable="State_FlowerColumn" msprop:Generator_UserColumnName="State Flower" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="State_x0020_bird" msprop:Generator_ColumnVarNameInTable="columnState_bird" msprop:Generator_ColumnPropNameInRow="State_bird" msprop:Generator_ColumnPropNameInTable="State_birdColumn" msprop:Generator_UserColumnName="State bird" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Capitol" msprop:Generator_ColumnVarNameInTable="columnCapitol" msprop:Generator_ColumnPropNameInRow="Capitol" msprop:Generator_ColumnPropNameInTable="CapitolColumn" msprop:Generator_UserColumnName="Capitol" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Median_x0020_Income" msprop:Generator_ColumnVarNameInTable="columnMedian_Income" msprop:Generator_ColumnPropNameInRow="Median_Income" msprop:Generator_ColumnPropNameInTable="Median_IncomeColumn" msprop:Generator_UserColumnName="Median Income" type="xs:int" minOccurs="0" />
+              <xs:element name="_x0025__x0020_of_x0020_PC_x0020_jobs" msprop:Generator_ColumnVarNameInTable="_column__of_PC_jobs" msprop:Generator_ColumnPropNameInRow="___of_PC_jobs" msprop:Generator_ColumnPropNameInTable="___of_PC_jobsColumn" msprop:Generator_UserColumnName="% of PC jobs" type="xs:int" minOccurs="0" />
+              <xs:element name="Largest_x0020_City" msprop:Generator_ColumnVarNameInTable="columnLargest_City" msprop:Generator_ColumnPropNameInRow="Largest_City" msprop:Generator_ColumnPropNameInTable="Largest_CityColumn" msprop:Generator_UserColumnName="Largest City" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Second_x0020_Largest_x0020_City" msprop:Generator_ColumnVarNameInTable="columnSecond_Largest_City" msprop:Generator_ColumnPropNameInRow="Second_Largest_City" msprop:Generator_ColumnPropNameInTable="Second_Largest_CityColumn" msprop:Generator_UserColumnName="Second Largest City" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Third_x0020_Largest_x0020_City" msprop:Generator_ColumnVarNameInTable="columnThird_Largest_City" msprop:Generator_ColumnPropNameInRow="Third_Largest_City" msprop:Generator_ColumnPropNameInTable="Third_Largest_CityColumn" msprop:Generator_UserColumnName="Third Largest City" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
