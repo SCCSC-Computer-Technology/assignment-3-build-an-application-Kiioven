@@ -1,0 +1,13 @@
+F:\C# stuff\Robert-Collier-CPT-206-Lab-2\bin\Debug\State info.accdb
+F:\C# stuff\Robert-Collier-CPT-206-Lab-2\bin\Debug\Robert-Collier-CPT-206-Lab-2.exe.config
+F:\C# stuff\Robert-Collier-CPT-206-Lab-2\bin\Debug\Robert-Collier-CPT-206-Lab-2.exe
+F:\C# stuff\Robert-Collier-CPT-206-Lab-2\bin\Debug\Robert-Collier-CPT-206-Lab-2.pdb
+F:\C# stuff\Robert-Collier-CPT-206-Lab-2\obj\Debug\Robert-Collier-CPT-206-Lab-2.csprojAssemblyReference.cache
+F:\C# stuff\Robert-Collier-CPT-206-Lab-2\obj\Debug\Robert_Collier_CPT_206_Lab_2.Form1.resources
+F:\C# stuff\Robert-Collier-CPT-206-Lab-2\obj\Debug\Robert_Collier_CPT_206_Lab_2.Properties.Resources.resources
+F:\C# stuff\Robert-Collier-CPT-206-Lab-2\obj\Debug\Robert-Collier-CPT-206-Lab-2.csproj.GenerateResource.cache
+F:\C# stuff\Robert-Collier-CPT-206-Lab-2\obj\Debug\Robert-Collier-CPT-206-Lab-2.csproj.CoreCompileInputs.cache
+F:\C# stuff\Robert-Collier-CPT-206-Lab-2\obj\Debug\Robert-Collier-CPT-206-Lab-2.exe
+F:\C# stuff\Robert-Collier-CPT-206-Lab-2\obj\Debug\Robert-Collier-CPT-206-Lab-2.pdb
+F:\C# stuff\Robert-Collier-CPT-206-Lab-2\obj\Debug\Robert_Collier_CPT_206_Lab_2.stateInfoForm.resources
+F:\C# stuff\Robert-Collier-CPT-206-Lab-2\obj\Debug\Robert_Collier_CPT_206_Lab_2.stateSortSearchForm.resources
