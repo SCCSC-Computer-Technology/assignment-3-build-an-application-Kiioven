@@ -1,0 +1,5 @@
+This project is visibly unfinished. There are no comments, unfinished code, and empty methods.
+
+The database has the correct data, and the data is successfully output to the combo box.
+
+What is visible of the interface is simple but readable and usable. The third form has no controls.
