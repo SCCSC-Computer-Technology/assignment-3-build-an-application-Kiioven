@@ -1,0 +1,4 @@
+I can see the data of the states but the project isn't quite finished. To be frank, I'm not one to talk
+and I couldn't finish mine in time either but it's just what i noticed. There's also no code comments so some 
+areas of the code could be hard to understand their functionality. 
+i did like the data though, from what it seems it looks correct. 
