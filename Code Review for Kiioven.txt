@@ -1,0 +1,5 @@
+Code Review for Kiioven
+
+Upon downloading and running the program I was given build errors but it still ran the program. I'm not sure, but selecting a state resulted in the state Alabama being replaced with the proviously selected state. Also both Form2 and Form3 loaded blank while the program was running.
+
+The layout of the controls on Form1 and Form2 were simple and easy for users to follow. I think the program overall would have displayed the information and data in a concise way for users. I didn't see the options for the users to sort and filter the data while running and on Form3 there are no controls to allow users this option. I also think that renaming the Forms to better clearly describe it would be helpful for those reviewing the program.
